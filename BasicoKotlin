@@ -1,0 +1,17 @@
+fun main() {
+    var y:Int=10
+    var b:Int=20
+    var c:Int=30
+    var d:Int=40
+    var x:Int=2
+    var f:Int=9
+    
+    c=y+b
+    d= b+c+y
+    f=x+d+c
+    x=f
+    x=x-b
+    d=x*y
+    print("o resultado de D é $d")
+    
+}
