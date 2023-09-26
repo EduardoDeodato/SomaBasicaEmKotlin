@@ -5,13 +5,24 @@ fun main() {
     var d:Int=40
     var x:Int=2
     var f:Int=9
-    
     c=y+b
     d= b+c+y
     f=x+d+c
     x=f
     x=x-b
     d=x*y
-    print("o resultado de D é $d")
-    
+    print("$Resultado d")
+    Valor Total =780 
+}
+fun main() {
+    var y = 10
+    var b = 20
+    var c = y + b
+    var d = b + c + y
+    var x = 2
+    var f = x + d + c
+    x = f - 2 * b
+    d = x * y
+    println(d)
+    Nesse mesmo exmplo mas simples ovalor é o mesmo
 }
